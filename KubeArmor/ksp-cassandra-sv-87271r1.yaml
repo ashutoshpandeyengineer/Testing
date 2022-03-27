@@ -12,7 +12,7 @@ spec:
   message: "Database log file is modified "
   selector:
     matchLabels:
-      app: cassandra
+      
   file:
     severity: 4
     matchDirectories:
