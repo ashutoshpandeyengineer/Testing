@@ -18,7 +18,6 @@ spec:
     matchPaths:
       - path: /etc/passwd
       - path: /etc/shadow
-    action: Block
   process:
     severity: 3
     matchPatterns:
