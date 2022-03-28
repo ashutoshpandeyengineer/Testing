@@ -13,8 +13,7 @@ spec:
   selector:
     matchLabels:
       app: cassandra #change app: cassandra to match your label
-  file:
-    severity: 3
+  file: 
     matchPaths:
       - path: /etc/passwd
       - path: /etc/shadow
