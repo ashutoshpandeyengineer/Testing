@@ -19,6 +19,7 @@ spec:
       - path: /etc/passwd
       - path: /etc/shadow
     action: Block
+    action: ASHUTOSH
   process:
     severity: 3
     matchPatterns:
