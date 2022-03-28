@@ -21,6 +21,7 @@ spec:
     action: Block
   process:
     severity: 3
+    severity:4
     matchPatterns:
       - pattern: /proc/**/cmdline
       - pattern: /proc/**/sched_debug
