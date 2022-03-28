@@ -18,7 +18,6 @@ spec:
     matchDirectories:
       - dir: /var/log/cassandra/
         recursive: true
-        readOnly: false
         fromSource:
           - path: /usr/bin/touch
           - path: /usr/bin/chmod
