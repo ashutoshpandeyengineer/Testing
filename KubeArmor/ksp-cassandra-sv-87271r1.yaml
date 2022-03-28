@@ -14,7 +14,7 @@ spec:
     matchLabels:
       app: cassandra
   file:
-    severity: 4
+    
     matchDirectories:
       - dir: /var/log/cassandra/
         recursive: true
