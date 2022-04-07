@@ -16,7 +16,6 @@ spec:
   file:
     severity: 3
     matchPaths:
-      - path: /etc/passwd
       - path: /etc/shadow
     action: Block
   process:
